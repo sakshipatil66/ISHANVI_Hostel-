@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ishanvi-hostel.vercel.app/sitemap.xml

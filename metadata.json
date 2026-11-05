@@ -1,0 +1,6 @@
+{
+  "name": "Ishanvi Hostel & Accommodation",
+  "description": "Safe, secure, and premium student & professional accommodation near ISMS Sankalp Business School, Ambegaon Bk, Pune.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

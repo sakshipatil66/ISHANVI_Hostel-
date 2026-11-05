@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-cream: #FAF6EF;
+  --color-cream-light: #FDFBF7;
+  --color-cream-card: #F4EFE6;
+  --color-cream-border: #E8DEC9;
+  --color-forest: #063D2D;
+  --color-forest-dark: #022D22;
+  --color-forest-hover: #084D39;
+  --color-gold: #B89550;
+  --color-gold-light: #D8BD82;
+  --color-gold-hover: #A68341;
+  --color-charcoal: #171714;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+}
+
+/* Custom smooth transitions */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom gold gradient borders */
+.gold-gradient-border {
+  border-image: linear-gradient(to right, #B89550, #D8BD82, #B89550) 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8BD82;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B89550;
+}
